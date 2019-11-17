@@ -216,8 +216,8 @@ bar {
         colors {
             background #000000
             statusline #bbdef0
-            focused_workspace #306bc9 #306bc9 #ebebeb
-            active_workspace #bbdef0 #bbdef0 #000000
+            focused_workspace #47ffa3 #47ffa3 #000000
+            active_workspace #ff5454 #ff5454 #000000
             inactive_workspace #bbdef0 #000000 #bbdef0
             urgent_workspace #ffaa00 #ffaa00 #000000
         }
@@ -225,7 +225,7 @@ bar {
 
 ########## Styling ##########
 
-client.focused 		    #48e082 #48e082 	#48e082 #48e082
+client.focused 	        #47ffa3 #47ffa3 	#47ffa3 #47ffa3
 client.focused_inactive #808080 #808080 	#808080 #808080   #808080
 client.unfocused        #393939 #393939 	#888888 #393939   #393939
 client.urgent           #ffaa00 #ffaa00     #ffaa00 #ffaa00 #ffaa00
