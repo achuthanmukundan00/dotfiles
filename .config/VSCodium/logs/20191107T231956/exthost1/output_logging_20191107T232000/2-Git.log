@@ -1,0 +1,44 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/achu/Documents/Coding-Projects/MGMT
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test
+> git rev-parse --symbolic-full-name test@{u}
+> git rev-list --left-right test...refs/remotes/origin/test
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test
+> git rev-parse --symbolic-full-name test@{u}
+> git rev-list --left-right test...refs/remotes/origin/test
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test
+> git rev-parse --symbolic-full-name test@{u}
+> git rev-list --left-right test...refs/remotes/origin/test
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :tsconfig.json
+> git show -s --format=%an <%ae> [%ai] 53800cf9255677f7c78dd66db850f3afc591342b
+> git show -s --format=%H
+%ae
+%P
+%B 53800cf9255677f7c78dd66db850f3afc591342b
+> git show -s --format=%an <%ae> [%ai] 972cbdcff25dc7b6b417d364dff4675ea7505632
+> git check-ignore -v -z --stdin
+> git show :src/styles.scss
+> git check-ignore -v -z --stdin
+> git show :src/browserslist
+> git show :src/environments/environment.ts
+> git ls-files --stage -- src/environments/

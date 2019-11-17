@@ -1,0 +1,8 @@
+[2019-11-08 13:41:32.875] [sharedprocess] [info] main {"machineId":"932921184b66b206c6c83f761bc8a5d03156c96eaa5264236e4da61735ea7dae","windowId":2}
+[2019-11-08 13:42:12.881] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-11-08 13:43:33.091] [sharedprocess] [info] Installing extension: isaact.verilog-formatter
+[2019-11-08 13:43:34.725] [sharedprocess] [info] Downloaded extension: isaact.verilog-formatter /tmp/445b7711-dbaa-46b8-aec1-0b2e7d1f2f8b
+[2019-11-08 13:43:36.478] [sharedprocess] [info] Extracted extension to /home/achu/.vscode-oss/extensions/.isaact.verilog-formatter-0.0.2: isaact.verilog-formatter
+[2019-11-08 13:43:36.478] [sharedprocess] [info] Renamed to /home/achu/.vscode-oss/extensions/isaact.verilog-formatter-0.0.2
+[2019-11-08 13:43:36.480] [sharedprocess] [info] Installation completed. isaact.verilog-formatter
+[2019-11-08 13:43:36.524] [sharedprocess] [info] Extensions installed successfully: isaact.verilog-formatter

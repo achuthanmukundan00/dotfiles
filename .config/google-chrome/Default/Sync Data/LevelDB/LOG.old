@@ -1,0 +1,36 @@
+2019/11/17-10:30:42.509 77f4 Reusing MANIFEST /home/achu/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/11/17-10:30:42.509 77f4 Recovering log #212
+2019/11/17-10:30:42.510 77f4 Reusing old log /home/achu/.config/google-chrome/Default/Sync Data/LevelDB/000212.log 
+2019/11/17-11:49:36.106 9c9 Level-0 table #216: started
+2019/11/17-11:49:36.123 9c9 Level-0 table #216: 103508 bytes OK
+2019/11/17-11:49:36.138 9c9 Delete type=0 #212
+2019/11/17-11:49:36.138 9c9 Compacting 4@0 + 1@1 files
+2019/11/17-11:49:36.172 9c9 Generated table #217@0: 2023 keys, 255766 bytes
+2019/11/17-11:49:36.172 9c9 Compacted 4@0 + 1@1 files => 255766 bytes
+2019/11/17-11:49:36.186 9c9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-11:49:36.186 9c9 Delete type=2 #209
+2019/11/17-11:49:36.187 9c9 Delete type=2 #211
+2019/11/17-11:49:36.187 9c9 Delete type=2 #216
+2019/11/17-11:49:36.187 9c9 Delete type=2 #213
+2019/11/17-11:49:36.187 9c9 Delete type=2 #207
+2019/11/17-12:09:44.284 9c9 Level-0 table #219: started
+2019/11/17-12:09:44.308 9c9 Level-0 table #219: 113852 bytes OK
+2019/11/17-12:09:44.326 9c9 Delete type=0 #215
+2019/11/17-12:46:52.022 9c9 Level-0 table #221: started
+2019/11/17-12:46:52.049 9c9 Level-0 table #221: 149155 bytes OK
+2019/11/17-12:46:52.064 9c9 Delete type=0 #218
+2019/11/17-12:47:26.897 9c9 Level-0 table #223: started
+2019/11/17-12:47:26.920 9c9 Level-0 table #223: 207719 bytes OK
+2019/11/17-12:47:26.933 9c9 Delete type=0 #220
+2019/11/17-13:36:29.837 9c9 Level-0 table #225: started
+2019/11/17-13:36:29.852 9c9 Level-0 table #225: 116238 bytes OK
+2019/11/17-13:36:29.864 9c9 Delete type=0 #222
+2019/11/17-13:36:29.864 9c9 Compacting 4@0 + 1@1 files
+2019/11/17-13:36:29.894 9c9 Generated table #226@0: 2040 keys, 259779 bytes
+2019/11/17-13:36:29.894 9c9 Compacted 4@0 + 1@1 files => 259779 bytes
+2019/11/17-13:36:29.908 9c9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-13:36:29.909 9c9 Delete type=2 #217
+2019/11/17-13:36:29.909 9c9 Delete type=2 #223
+2019/11/17-13:36:29.909 9c9 Delete type=2 #219
+2019/11/17-13:36:29.909 9c9 Delete type=2 #221
+2019/11/17-13:36:29.909 9c9 Delete type=2 #225

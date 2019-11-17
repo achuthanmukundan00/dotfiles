@@ -1,0 +1,18 @@
+2019/11/17-10:30:48.246 77f4 Reusing MANIFEST /home/achu/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/11/17-10:30:48.247 77f4 Recovering log #167
+2019/11/17-10:30:48.248 77f4 Reusing old log /home/achu/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000167.log 
+2019/11/17-10:31:16.935 79d2 Compacting 2@0 + 2@1 files
+2019/11/17-10:31:17.200 79d2 Generated table #170@0: 277 keys, 2563485 bytes
+2019/11/17-10:31:17.201 79d2 Level-0 table #172: started
+2019/11/17-10:31:17.355 79d2 Level-0 table #172: 2554907 bytes OK
+2019/11/17-10:31:17.381 79d2 Delete type=0 #167
+2019/11/17-10:31:17.404 79d2 Generated table #173@0: 11 keys, 2041 bytes
+2019/11/17-10:31:17.404 79d2 Compacted 2@0 + 2@1 files => 2565526 bytes
+2019/11/17-10:31:17.416 79d2 compacted to: files[ 1 2 1 0 0 0 0 ]
+2019/11/17-10:31:18.125 79d2 Level-0 table #175: started
+2019/11/17-10:31:18.281 79d2 Level-0 table #175: 2576167 bytes OK
+2019/11/17-10:31:18.299 79d2 Delete type=0 #171
+2019/11/17-10:31:18.299 79d2 Delete type=2 #166
+2019/11/17-10:31:18.299 79d2 Delete type=2 #168
+2019/11/17-10:31:18.299 79d2 Delete type=2 #165
+2019/11/17-10:31:18.299 79d2 Delete type=2 #163

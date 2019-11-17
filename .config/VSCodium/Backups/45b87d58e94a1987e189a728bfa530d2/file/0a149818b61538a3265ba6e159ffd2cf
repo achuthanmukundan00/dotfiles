@@ -1,0 +1,214 @@
+file:///home/achu/Desktop/University%20Second%20Year/Fall/ECE241/Lab7/part2/fill.v {"mtime":1573239548957,"size":5093,"etag":"345pjj976599","orphaned":false}
+// Part 2 skeleton
+
+module fill
+	(
+		CLOCK_50,						//	On Board 50 MHz
+		// Your inputs and outputs here
+		KEY,
+		SW, LEDR,							// On Board Keys
+		// The ports below are for the VGA output.  Do not change.
+		VGA_CLK,   						//	VGA Clock
+		VGA_HS,							//	VGA H_SYNC
+		VGA_VS,							//	VGA V_SYNC
+		VGA_BLANK_N,						//	VGA BLANK
+		VGA_SYNC_N,						//	VGA SYNC
+		VGA_R,   						//	VGA Red[9:0]
+		VGA_G,	 						//	VGA Green[9:0]
+		VGA_B   						//	VGA Blue[9:0]
+	);
+
+	input			CLOCK_50;				//	50 MHz
+	input	[3:0]	KEY;					
+	// Declare your inputs and outputs here
+	input [9:0] SW;
+	input [9:0] LEDR;
+	wire ld_x, ld_y, ld_clr, enable_plt, enable_blk;
+	//wire [3:0] counter_plt;
+	//wire [14:0] counter_blk;
+	// Do not change the following outputs
+	output			VGA_CLK;   				//	VGA Clock
+	output			VGA_HS;					//	VGA H_SYNC
+	output			VGA_VS;					//	VGA V_SYNC
+	output			VGA_BLANK_N;				//	VGA BLANK
+	output			VGA_SYNC_N;				//	VGA SYNC
+	output	[7:0]	VGA_R;   				//	VGA Red[7:0] Changed from 10 to 8-bit DAC
+	output	[7:0]	VGA_G;	 				//	VGA Green[7:0]
+	output	[7:0]	VGA_B;   				//	VGA Blue[7:0]
+	
+	wire resetn, go, clear, plt_key;
+	assign resetn = KEY[0];
+	assign plt_key= ~KEY[1];
+	assign clear = ~KEY[2]; 
+	assign go=~KEY[3];
+	
+	// Create the colour, x, y and writeEn wires that are inputs to the controller.
+
+	wire [2:0] colour;
+	wire [7:0] x;
+	wire [6:0] y;
+	wire writeEn; //plot
+
+	// Create an Instance of a VGA controller - there can be only one!
+	// Define the number of colours as well as the initial background
+	// image file (.MIF) for the controller.
+	vga_adapter VGA(
+			.resetn(resetn),
+			.clock(CLOCK_50),
+			.colour(colour),
+			.x(x),
+			.y(y),
+			.plot(writeEn),
+			/* Signals for the DAC to drive the monitor. */
+			.VGA_R(VGA_R),
+			.VGA_G(VGA_G),
+			.VGA_B(VGA_B),
+			.VGA_HS(VGA_HS),
+			.VGA_VS(VGA_VS),
+			.VGA_BLANK(VGA_BLANK_N),
+			.VGA_SYNC(VGA_SYNC_N),
+			.VGA_CLK(VGA_CLK));
+		defparam VGA.RESOLUTION = "160x120";
+		defparam VGA.MONOCHROME = "FALSE";
+		defparam VGA.BITS_PER_COLOUR_CHANNEL = 1;
+		defparam VGA.BACKGROUND_IMAGE = "black.mif";
+			
+	// Put your code here. Your code should produce signals x,y,colour and writeEn
+	// for the VGA controller, in addition to any other functionality your design may require.
+	datapath d(CLOCK_50, resetn, ld_x, ld_y, ld_clr, enable_blk, enable_plt, SW[7:0], SW[6:0], SW[9:7], x,y, colour);
+	control c(CLOCK_50, resetn, go, clear, plt_key, ld_x, ld_y, ld_clr, writeEn, enable_plt, enable_blk);
+	//assign LEDR[6:0]= x;
+	//assign LEDR[9:7]=colour;
+
+endmodule
+
+module datapath(input clk, resetn, ld_x, ld_y, ld_clr, enable_blk, enable_plt,
+		input [7:0] x_initial,
+		input [6:0] y_initial,
+		input [2:0] clr,
+		output [7:0] x,
+		output [6:0] y,
+		output [2:0] color
+		);
+	
+	//registers
+	reg [2:0] CLR;
+	reg [7:0] X;
+	reg [6:0] Y;
+	
+
+	//wires going into mux
+	//wire [7:0] x_in;
+	//wire [6:0] y_in;
+	//wire [2:0] clr_in;
+
+	//registers
+	always@(posedge clk)
+	begin
+	if (!resetn)
+	begin
+		X <= 8'b0;
+		Y <= 7'b0;
+		CLR <= 3'b0;
+		//CounterA <= 4'b0;
+		//CounterB <= 15'b0;
+	end
+	else
+	begin
+	if (ld_x)
+		X <= x_initial;
+	if (ld_y)
+		Y <= y_initial;
+	if (ld_clr)
+		CLR <= clr;
+	end
+	end
+
+endmodule 
+
+module control(input clk, resetn, go, clear, plt_key, 
+		output reg ld_x, ld_y, ld_clr, plot, enable_plt, enable_blk
+		);
+
+	reg [2:0] current_state, next_state;
+
+	localparam  S0        	= 3'd0,
+                S1   		= 3'd1,
+                S1_WAIT        	= 3'd2,
+                S2  	 	= 3'd3,
+                DRAW   		= 3'd4,
+                BLK        	= 3'd5;
+
+	//next state logic
+	always@(*)
+	begin: state_table
+	case(current_state)
+		S0: next_state = go ? S1 : S0;
+		S1: next_state = go ? S1 : S1_WAIT;
+		S1_WAIT: begin 
+				if (go == 1'b0) next_state = S1_WAIT;
+				if (go == 1'b1) next_state = S2;
+				if (clear == 1'b1) next_state = BLK;
+			end
+		S2: begin
+			if (go == 1'b1)
+				next_state = S2;
+			if (clear == 1'b1)
+				next_state = BLK;
+			else
+				next_state= DRAW;
+			end
+		DRAW: begin
+				//while ( counter_plt <= 4'd15)
+					//next_state = DRAW;
+				if (clear == 1'b1) next_state= BLK;
+				else	next_state = S0;
+			end
+		BLK: begin
+				//while ( counter_blk < 15'd19200)
+					//next_state = BLK;
+				next_state = S0;
+			end
+		default: next_state = S0;
+	endcase
+	end
+
+	//control signals
+	always@(*)
+	begin: enable_signals
+	//reset all enable signals
+	ld_x =1'b0;
+	ld_y = 1'b0;
+	ld_clr= 1'b0; 
+	plot = 1'b0; 
+	enable_plt = 1'b0;
+	enable_blk = 1'b0;
+	
+	case(current_state)
+		S0: ;//do nothing
+		S1: ld_x = 1'b1;
+		S2: begin
+		ld_y = 1'b1;
+		ld_clr= 1'b1;
+		end
+		DRAW: begin
+		enable_plt= 1'b1;
+		plot = 1'b1;
+		end
+		BLK: begin
+		enable_blk= 1'b1;
+		plot =1'b1;
+		end
+	endcase
+	end
+
+	// current_state registers
+    	always@(posedge clk)
+    	begin: state_FFs
+        	if(!resetn)
+            		current_state <= S0;
+        	else
+            		current_state <= next_state;
+    	end // state_FFS
+
+endmodule 

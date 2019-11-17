@@ -1,0 +1,6 @@
+2019/11/17-13:42:20.385 6fcb Reusing MANIFEST /home/achu/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/11/17-13:42:20.385 6fcb Recovering log #224
+2019/11/17-13:42:20.386 6fcb Reusing old log /home/achu/.config/google-chrome/Default/Sync Data/LevelDB/000224.log 
+2019/11/17-14:16:50.803 1e16 Level-0 table #229: started
+2019/11/17-14:16:50.879 1e16 Level-0 table #229: 105968 bytes OK
+2019/11/17-14:16:50.894 1e16 Delete type=0 #224

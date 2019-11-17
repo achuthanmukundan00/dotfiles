@@ -1,0 +1,13 @@
+[2019-11-11 13:29:54.179] [sharedprocess] [info] main {"machineId":"932921184b66b206c6c83f761bc8a5d03156c96eaa5264236e4da61735ea7dae","windowId":2}
+[2019-11-11 13:29:55.732] [sharedprocess] [info] Installing extension: firefox-devtools.vscode-firefox-debug
+[2019-11-11 13:29:55.732] [sharedprocess] [info] Installing extension: mshr-h.veriloghdl
+[2019-11-11 13:29:56.096] [sharedprocess] [info] Downloaded extension: firefox-devtools.vscode-firefox-debug /tmp/e67a4e10-cb1a-4e5b-8c25-11d16cdbe2f9
+[2019-11-11 13:29:56.100] [sharedprocess] [info] Downloaded extension: mshr-h.veriloghdl /tmp/980437a8-e2a0-4683-9d39-11b656df4e07
+[2019-11-11 13:29:56.239] [sharedprocess] [info] Extracted extension to /home/achu/.vscode-oss/extensions/.firefox-devtools.vscode-firefox-debug-2.5.0: firefox-devtools.vscode-firefox-debug
+[2019-11-11 13:29:56.240] [sharedprocess] [info] Renamed to /home/achu/.vscode-oss/extensions/firefox-devtools.vscode-firefox-debug-2.5.0
+[2019-11-11 13:29:56.243] [sharedprocess] [info] Installation completed. firefox-devtools.vscode-firefox-debug
+[2019-11-11 13:29:56.272] [sharedprocess] [info] Extensions installed successfully: firefox-devtools.vscode-firefox-debug
+[2019-11-11 13:29:56.361] [sharedprocess] [info] Extracted extension to /home/achu/.vscode-oss/extensions/.mshr-h.veriloghdl-1.0.4: mshr-h.veriloghdl
+[2019-11-11 13:29:56.362] [sharedprocess] [info] Renamed to /home/achu/.vscode-oss/extensions/mshr-h.veriloghdl-1.0.4
+[2019-11-11 13:29:56.363] [sharedprocess] [info] Installation completed. mshr-h.veriloghdl
+[2019-11-11 13:29:56.384] [sharedprocess] [info] Extensions installed successfully: mshr-h.veriloghdl

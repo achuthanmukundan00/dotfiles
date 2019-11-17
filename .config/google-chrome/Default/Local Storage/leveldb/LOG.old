@@ -1,0 +1,90 @@
+2019/11/17-10:30:43.131 77f4 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/11/17-10:30:43.132 77f4 Recovering log #426
+2019/11/17-10:30:43.132 77f4 Reusing old log leveldb/000426.log 
+2019/11/17-11:41:54.409 54b Level-0 table #431: started
+2019/11/17-11:41:54.426 54b Level-0 table #431: 16290 bytes OK
+2019/11/17-11:41:54.445 54b Delete type=0 #426
+2019/11/17-11:51:41.774 a90 Level-0 table #433: started
+2019/11/17-11:51:41.794 a90 Level-0 table #433: 15072 bytes OK
+2019/11/17-11:51:41.809 a90 Delete type=0 #430
+2019/11/17-12:08:48.975 16b9 Level-0 table #435: started
+2019/11/17-12:08:48.989 16b9 Level-0 table #435: 15383 bytes OK
+2019/11/17-12:08:48.999 16b9 Delete type=0 #432
+2019/11/17-12:12:55.798 1b96 Level-0 table #437: started
+2019/11/17-12:12:55.812 1b96 Level-0 table #437: 14202 bytes OK
+2019/11/17-12:12:55.827 1b96 Delete type=0 #434
+2019/11/17-12:12:55.829 19ca Compacting 4@0 + 1@1 files
+2019/11/17-12:12:55.966 19ca Generated table #438@0: 4405 keys, 1296154 bytes
+2019/11/17-12:12:55.966 19ca Compacted 4@0 + 1@1 files => 1296154 bytes
+2019/11/17-12:12:55.975 19ca compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-12:12:55.976 19ca Delete type=2 #433
+2019/11/17-12:12:55.976 19ca Delete type=2 #435
+2019/11/17-12:12:55.976 19ca Delete type=2 #437
+2019/11/17-12:12:55.976 19ca Delete type=2 #428
+2019/11/17-12:12:55.976 19ca Delete type=2 #431
+2019/11/17-12:14:56.443 1e19 Level-0 table #440: started
+2019/11/17-12:14:56.461 1e19 Level-0 table #440: 13622 bytes OK
+2019/11/17-12:14:56.478 1e19 Delete type=0 #436
+2019/11/17-12:16:50.237 2130 Level-0 table #442: started
+2019/11/17-12:16:50.253 2130 Level-0 table #442: 12249 bytes OK
+2019/11/17-12:16:50.269 2130 Delete type=0 #439
+2019/11/17-12:19:50.781 264e Level-0 table #444: started
+2019/11/17-12:19:50.799 264e Level-0 table #444: 11494 bytes OK
+2019/11/17-12:19:50.809 264e Delete type=0 #441
+2019/11/17-12:46:30.036 264c Level-0 table #446: started
+2019/11/17-12:46:30.077 264c Level-0 table #446: 11319 bytes OK
+2019/11/17-12:46:30.088 264c Delete type=0 #443
+2019/11/17-12:46:30.089 2a36 Compacting 4@0 + 1@1 files
+2019/11/17-12:46:30.266 2a36 Generated table #447@0: 4417 keys, 1299202 bytes
+2019/11/17-12:46:30.266 2a36 Compacted 4@0 + 1@1 files => 1299202 bytes
+2019/11/17-12:46:30.276 2a36 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-12:46:30.279 2a36 Delete type=2 #438
+2019/11/17-12:46:30.279 2a36 Delete type=2 #446
+2019/11/17-12:46:30.279 2a36 Delete type=2 #442
+2019/11/17-12:46:30.279 2a36 Delete type=2 #440
+2019/11/17-12:46:30.279 2a36 Delete type=2 #444
+2019/11/17-12:46:59.856 2b67 Level-0 table #449: started
+2019/11/17-12:46:59.867 2b67 Level-0 table #449: 10923 bytes OK
+2019/11/17-12:46:59.883 2b67 Delete type=0 #445
+2019/11/17-12:47:54.770 2b67 Level-0 table #451: started
+2019/11/17-12:47:54.784 2b67 Level-0 table #451: 16724 bytes OK
+2019/11/17-12:47:54.795 2b67 Delete type=0 #448
+2019/11/17-13:22:14.990 55b3 Level-0 table #453: started
+2019/11/17-13:22:15.010 55b3 Level-0 table #453: 20242 bytes OK
+2019/11/17-13:22:15.027 55b3 Delete type=0 #450
+2019/11/17-13:32:14.000 615e Level-0 table #455: started
+2019/11/17-13:32:14.014 615e Level-0 table #455: 12717 bytes OK
+2019/11/17-13:32:14.024 615e Delete type=0 #452
+2019/11/17-13:32:14.025 615d Compacting 4@0 + 1@1 files
+2019/11/17-13:32:14.151 615d Generated table #456@0: 4460 keys, 1299051 bytes
+2019/11/17-13:32:14.151 615d Compacted 4@0 + 1@1 files => 1299051 bytes
+2019/11/17-13:32:14.162 615d compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-13:32:14.164 615d Delete type=2 #449
+2019/11/17-13:32:14.164 615d Delete type=2 #451
+2019/11/17-13:32:14.164 615d Delete type=2 #453
+2019/11/17-13:32:14.164 615d Delete type=2 #447
+2019/11/17-13:32:14.165 615d Delete type=2 #455
+2019/11/17-13:33:36.685 6163 Level-0 table #458: started
+2019/11/17-13:33:36.707 6163 Level-0 table #458: 16764 bytes OK
+2019/11/17-13:33:36.718 6163 Delete type=0 #454
+2019/11/17-13:36:32.687 66c4 Level-0 table #460: started
+2019/11/17-13:36:32.703 66c4 Level-0 table #460: 13210 bytes OK
+2019/11/17-13:36:32.715 66c4 Delete type=0 #457
+2019/11/17-13:38:18.335 6812 Level-0 table #462: started
+2019/11/17-13:38:18.351 6812 Level-0 table #462: 18124 bytes OK
+2019/11/17-13:38:18.364 6812 Delete type=0 #459
+2019/11/17-13:39:21.674 68dd Level-0 table #464: started
+2019/11/17-13:39:21.687 68dd Level-0 table #464: 11197 bytes OK
+2019/11/17-13:39:21.696 68dd Delete type=0 #461
+2019/11/17-13:39:21.697 6811 Compacting 4@0 + 1@1 files
+2019/11/17-13:39:21.845 6811 Generated table #465@0: 4472 keys, 1301105 bytes
+2019/11/17-13:39:21.845 6811 Compacted 4@0 + 1@1 files => 1301105 bytes
+2019/11/17-13:39:21.853 6811 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-13:39:21.854 6811 Delete type=2 #462
+2019/11/17-13:39:21.854 6811 Delete type=2 #456
+2019/11/17-13:39:21.854 6811 Delete type=2 #460
+2019/11/17-13:39:21.854 6811 Delete type=2 #458
+2019/11/17-13:39:21.854 6811 Delete type=2 #464
+2019/11/17-13:39:50.266 6811 Level-0 table #467: started
+2019/11/17-13:39:50.279 6811 Level-0 table #467: 9239 bytes OK
+2019/11/17-13:39:50.291 6811 Delete type=0 #463

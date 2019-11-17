@@ -1,0 +1,47 @@
+2019/11/16-19:23:04.229 5be Reusing MANIFEST /home/achu/.config/google-chrome/Default/IndexedDB/https_todo.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/11/16-19:23:04.229 5be Recovering log #11
+2019/11/16-19:23:04.229 5be Reusing old log /home/achu/.config/google-chrome/Default/IndexedDB/https_todo.microsoft.com_0.indexeddb.leveldb/000011.log 
+2019/11/16-19:23:04.230 5be Delete type=2 #10
+2019/11/16-19:23:04.259 7cc Level-0 table #16: started
+2019/11/16-19:23:04.269 7cc Level-0 table #16: 508 bytes OK
+2019/11/16-19:23:04.281 7cc Delete type=0 #11
+2019/11/16-19:23:04.281 7cc Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 515 : 1
+2019/11/16-19:23:04.281 7cc Compacting 1@0 + 1@1 files
+2019/11/16-19:23:04.292 7cc Generated table #17@0: 133 keys, 1542 bytes
+2019/11/16-19:23:04.292 7cc Compacted 1@0 + 1@1 files => 1542 bytes
+2019/11/16-19:23:04.308 7cc compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/16-19:23:04.308 7cc Delete type=2 #16
+2019/11/16-19:23:04.308 7cc Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 515 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/11/16-19:23:04.331 7cc Level-0 table #19: started
+2019/11/16-19:23:04.341 7cc Level-0 table #19: 512 bytes OK
+2019/11/16-19:23:04.353 7cc Delete type=2 #13
+2019/11/16-19:23:04.353 7cc Delete type=0 #15
+2019/11/16-19:23:04.353 7cc Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 533 : 1
+2019/11/16-19:23:04.353 7cc Compacting 1@0 + 1@1 files
+2019/11/16-19:23:04.362 7cc Generated table #20@0: 133 keys, 1540 bytes
+2019/11/16-19:23:04.362 7cc Compacted 1@0 + 1@1 files => 1540 bytes
+2019/11/16-19:23:04.372 7cc compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/16-19:23:04.372 7cc Delete type=2 #19
+2019/11/16-19:23:04.372 7cc Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 533 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/11/16-19:23:04.400 7cc Level-0 table #22: started
+2019/11/16-19:23:04.409 7cc Level-0 table #22: 512 bytes OK
+2019/11/16-19:23:04.421 7cc Delete type=2 #17
+2019/11/16-19:23:04.421 7cc Delete type=0 #18
+2019/11/16-19:23:04.422 7cc Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 551 : 1
+2019/11/16-19:23:04.422 7cc Compacting 1@0 + 1@1 files
+2019/11/16-19:23:04.435 7cc Generated table #23@0: 133 keys, 1536 bytes
+2019/11/16-19:23:04.435 7cc Compacted 1@0 + 1@1 files => 1536 bytes
+2019/11/16-19:23:04.451 7cc compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/16-19:23:04.452 7cc Delete type=2 #22
+2019/11/16-19:23:04.452 7cc Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 551 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/11/16-19:23:04.515 7cc Level-0 table #25: started
+2019/11/16-19:23:04.528 7cc Level-0 table #25: 4830 bytes OK
+2019/11/16-19:23:04.539 7cc Delete type=2 #20
+2019/11/16-19:23:04.539 7cc Delete type=0 #21
+2019/11/16-19:23:04.540 7cc Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 602 : 1
+2019/11/16-19:23:04.540 7cc Compacting 1@0 + 1@1 files
+2019/11/16-19:23:04.551 7cc Generated table #26@0: 133 keys, 1538 bytes
+2019/11/16-19:23:04.551 7cc Compacted 1@0 + 1@1 files => 1538 bytes
+2019/11/16-19:23:04.562 7cc compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/16-19:23:04.563 7cc Delete type=2 #25
+2019/11/16-19:23:04.563 7cc Manual compaction at level-0 from '\x00\x08\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 602 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

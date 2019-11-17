@@ -1,0 +1,144 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/achu/Documents/Coding-Projects/MGMT
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git show :tsconfig.json
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :tsconfig.json
+> git config --global user.email
+> git config --global user.name
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show -s --format=%an <%ae> [%ai] 212ccfe67b067fd9ce44f60284031e8652a315d4
+> git show -s --format=%H
+%ae
+%P
+%B 212ccfe67b067fd9ce44f60284031e8652a315d4
+> git show -s --format=%an <%ae> [%ai] ce6425f6b9630d2fa62538d9f2d3d17e2f941644
+> git show -s --format=%H
+%ae
+%P
+%B ce6425f6b9630d2fa62538d9f2d3d17e2f941644
+> git show -s --format=%an <%ae> [%ai] c63d1afe49e6c183f66dcacc9d0655acdc7e1278
+> git show -s --format=%H
+%ae
+%P
+%B c63d1afe49e6c183f66dcacc9d0655acdc7e1278
+> git show -s --format=%an <%ae> [%ai] 56d05ad5e21ca05e3cee6616ee4176cf24bac167
+> git show -s --format=%H
+%ae
+%P
+%B 56d05ad5e21ca05e3cee6616ee4176cf24bac167
+> git show -s --format=%an <%ae> [%ai] d7ec15e1ea9becae80d35ba3ad73df74439e183e
+> git show -s --format=%H
+%ae
+%P
+%B d7ec15e1ea9becae80d35ba3ad73df74439e183e
+> git show -s --format=%an <%ae> [%ai] 32e411700b0b079c25220d437f7f19d39fbb1db0
+> git show -s --format=%H
+%ae
+%P
+%B 32e411700b0b079c25220d437f7f19d39fbb1db0
+> git show -s --format=%an <%ae> [%ai] 31a667e2c2fb54a929351bd7a8885ca23613ce28
+> git show -s --format=%H
+%ae
+%P
+%B 31a667e2c2fb54a929351bd7a8885ca23613ce28
+> git show -s --format=%an <%ae> [%ai] e5576f8058421e1f69e17fc4a17027549d0c5982
+> git show -s --format=%an <%ae> [%ai] 011c6754e772bfd7f2234daf7560a92d268656d1
+> git show -s --format=%H
+%ae
+%P
+%B e5576f8058421e1f69e17fc4a17027549d0c5982
+> git show -s --format=%H
+%ae
+%P
+%B 011c6754e772bfd7f2234daf7560a92d268656d1
+> git show -s --format=%an <%ae> [%ai] 972cbdcff25dc7b6b417d364dff4675ea7505632
+> git show -s --format=%H
+%ae
+%P
+%B 972cbdcff25dc7b6b417d364dff4675ea7505632
+> git show -s --format=%an <%ae> [%ai] 53800cf9255677f7c78dd66db850f3afc591342b
+> git show -s --format=%an <%ae> [%ai] cb5508548854e85e400e67bf6b378dc19a6605d6
+> git show -s --format=%H
+%ae
+%P
+%B 53800cf9255677f7c78dd66db850f3afc591342b
+> git show -s --format=%H
+%ae
+%P
+%B cb5508548854e85e400e67bf6b378dc19a6605d6
+> git show -s --format=%an <%ae> [%ai] 972cbdcff25dc7b6b417d364dff4675ea7505632
+> git show -s --format=%an <%ae> [%ai] 39f89d0137b7d25f974ae60922681f55adc7dc16
+> git show -s --format=%H
+%ae
+%P
+%B 972cbdcff25dc7b6b417d364dff4675ea7505632
+> git show -s --format=%H
+%ae
+%P
+%B 39f89d0137b7d25f974ae60922681f55adc7dc16
+> git show -s --format=%an <%ae> [%ai] cb5508548854e85e400e67bf6b378dc19a6605d6
+> git show -s --format=%an <%ae> [%ai] 173ae1799c597d914de538c6171974fdb2598cf7
+> git show -s --format=%H
+%ae
+%P
+%B cb5508548854e85e400e67bf6b378dc19a6605d6
+> git show -s --format=%H
+%ae
+%P
+%B 173ae1799c597d914de538c6171974fdb2598cf7
+> git show -s --format=%an <%ae> [%ai] 39f89d0137b7d25f974ae60922681f55adc7dc16
+> git show -s --format=%an <%ae> [%ai] 828acc4fa7611b4fe7f21146e8277230a919a247
+> git show -s --format=%H
+%ae
+%P
+%B 39f89d0137b7d25f974ae60922681f55adc7dc16
+> git show -s --format=%H
+%ae
+%P
+%B 828acc4fa7611b4fe7f21146e8277230a919a247
+> git show -s --format=%an <%ae> [%ai] 173ae1799c597d914de538c6171974fdb2598cf7
+> git show -s --format=%an <%ae> [%ai] 5a6e154fbf5fc73191932034549f18a19cca9c43
+> git show -s --format=%H
+%ae
+%P
+%B 173ae1799c597d914de538c6171974fdb2598cf7
+> git show -s --format=%an <%ae> [%ai] 828acc4fa7611b4fe7f21146e8277230a919a247
+> git show -s --format=%H
+%ae
+%P
+%B 828acc4fa7611b4fe7f21146e8277230a919a247
+> git show -s --format=%an <%ae> [%ai] 5a6e154fbf5fc73191932034549f18a19cca9c43
+> git fetch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :tsconfig.json

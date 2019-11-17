@@ -1,0 +1,47 @@
+2019/11/17-12:46:53.741 264c Reusing MANIFEST /home/achu/.config/google-chrome/Default/IndexedDB/https_todo.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/11/17-12:46:53.742 264c Recovering log #24
+2019/11/17-12:46:53.742 264c Reusing old log /home/achu/.config/google-chrome/Default/IndexedDB/https_todo.microsoft.com_0.indexeddb.leveldb/000024.log 
+2019/11/17-12:46:53.742 264c Delete type=2 #23
+2019/11/17-12:46:53.786 79d2 Level-0 table #29: started
+2019/11/17-12:46:53.797 79d2 Level-0 table #29: 510 bytes OK
+2019/11/17-12:46:53.812 79d2 Delete type=0 #24
+2019/11/17-12:46:53.812 79d2 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 1023 : 1
+2019/11/17-12:46:53.812 79d2 Compacting 1@0 + 1@1 files
+2019/11/17-12:46:53.823 79d2 Generated table #30@0: 133 keys, 1545 bytes
+2019/11/17-12:46:53.823 79d2 Compacted 1@0 + 1@1 files => 1545 bytes
+2019/11/17-12:46:53.838 79d2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-12:46:53.838 79d2 Delete type=2 #29
+2019/11/17-12:46:53.839 79d2 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 1023 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/11/17-12:46:53.866 79d2 Level-0 table #32: started
+2019/11/17-12:46:53.877 79d2 Level-0 table #32: 513 bytes OK
+2019/11/17-12:46:53.889 79d2 Delete type=0 #28
+2019/11/17-12:46:53.889 79d2 Delete type=2 #26
+2019/11/17-12:46:53.890 79d2 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 1041 : 1
+2019/11/17-12:46:53.890 79d2 Compacting 1@0 + 1@1 files
+2019/11/17-12:46:53.900 79d2 Generated table #33@0: 133 keys, 1539 bytes
+2019/11/17-12:46:53.900 79d2 Compacted 1@0 + 1@1 files => 1539 bytes
+2019/11/17-12:46:53.913 79d2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-12:46:53.913 79d2 Delete type=2 #32
+2019/11/17-12:46:53.913 79d2 Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 1041 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/11/17-12:46:53.958 79d2 Level-0 table #35: started
+2019/11/17-12:46:53.970 79d2 Level-0 table #35: 515 bytes OK
+2019/11/17-12:46:53.984 79d2 Delete type=0 #31
+2019/11/17-12:46:53.984 79d2 Delete type=2 #30
+2019/11/17-12:46:53.985 79d2 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 1059 : 1
+2019/11/17-12:46:53.985 79d2 Compacting 1@0 + 1@1 files
+2019/11/17-12:46:53.997 79d2 Generated table #36@0: 133 keys, 1538 bytes
+2019/11/17-12:46:53.997 79d2 Compacted 1@0 + 1@1 files => 1538 bytes
+2019/11/17-12:46:54.011 79d2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-12:46:54.011 79d2 Delete type=2 #35
+2019/11/17-12:46:54.011 79d2 Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 1059 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/11/17-12:46:54.130 79d2 Level-0 table #38: started
+2019/11/17-12:46:54.141 79d2 Level-0 table #38: 4820 bytes OK
+2019/11/17-12:46:54.155 79d2 Delete type=2 #33
+2019/11/17-12:46:54.155 79d2 Delete type=0 #34
+2019/11/17-12:46:54.156 79d2 Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 1110 : 1
+2019/11/17-12:46:54.156 79d2 Compacting 1@0 + 1@1 files
+2019/11/17-12:46:54.168 79d2 Generated table #39@0: 133 keys, 1539 bytes
+2019/11/17-12:46:54.168 79d2 Compacted 1@0 + 1@1 files => 1539 bytes
+2019/11/17-12:46:54.181 79d2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/11/17-12:46:54.181 79d2 Delete type=2 #38
+2019/11/17-12:46:54.181 79d2 Manual compaction at level-0 from '\x00\x0c\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 1110 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)

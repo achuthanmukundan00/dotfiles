@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-max '/home/achu/Pictures/background,-black,-noise,-colorful,-wallpaper,-wallpapers.jpg' 
