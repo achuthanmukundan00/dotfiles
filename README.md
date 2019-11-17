@@ -12,4 +12,6 @@
 * rofi (an alternative to dmenu for application launching)
 * compton (compositor for X11, since i3 doesn't provide compositing meaning DISGUSTING screen tearing without this)
 
+## Screenshots
+![Rice/Wallpaper](/.images/rice1.png)
 ![Rice](/.images/rice.png)
