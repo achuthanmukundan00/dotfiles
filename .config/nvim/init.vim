@@ -33,6 +33,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'eslint/eslint'
 
 Plug 'tpope/vim-fugitive'
-
+Plug 'vhda/verilog_systemverilog.vim'
 
 call plug#end()

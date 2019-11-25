@@ -35,6 +35,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id /usr/lib64/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id compton
 exec --no-startup-id feh --bg-max ~/Pictures/background,-black,-noise,-colorful,-wallpaper,-wallpapers.jpg
+exec --no-startup-id sudo tlp start
 ########## Keybindings ##########
 bindsym Mod4+Shift+s exec i3lock -i ~/Pictures/bg.png; exec systemctl suspend # Easier locking
 
@@ -215,7 +216,7 @@ bar {
         font pango:Hermit 9
         colors {
             background #000000
-            statusline #bbdef0
+            statusline #e5f4ff
             focused_workspace #47ffa3 #47ffa3 #000000
             active_workspace #ff5454 #ff5454 #000000
             inactive_workspace #bbdef0 #000000 #bbdef0

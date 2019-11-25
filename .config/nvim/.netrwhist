@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/achu/Documents/Coding-Projects/MGMT'
+let g:netrw_dirhist_2='/home/achu/Documents/Coding-Projects/MGMT/src'
+let g:netrw_dirhist_3='/home/achu/Documents/Coding-Projects/MGMT/src/app'
+let g:netrw_dirhist_4='/home/achu/Documents/Coding-Projects/MGMT/src/app/pages'
+let g:netrw_dirhist_5='/home/achu/Documents/Coding-Projects/MGMT/src/app/pages/dashboard'
